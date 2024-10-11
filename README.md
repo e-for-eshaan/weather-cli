@@ -4,8 +4,10 @@
 git clone https://github.com/e-for-eshaan/weather-cli.git sun && cd sun && go mod tidy && touch .env && code .env
 ```
 
-Paste your weather-api key in the .env as:
-`WEATHER_API_KEY=987S878sds8d7s8d780`
+Paste your weather-api key in the .env (get one from https://www.weatherapi.com/)
+```
+WEATHER_API_KEY=<API_KEY>
+```
 
 Save and close `.env`
 
