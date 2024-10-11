@@ -1,9 +1,7 @@
 # CLI tool to check weather using Golang
 
 ```
-git clone https://github.com/e-for-eshaan/weather-cli.git sun && cd sun
-go mod tidy
-touch .env && code .env
+git clone https://github.com/e-for-eshaan/weather-cli.git sun && cd sun && go mod tidy && touch .env && code .env
 ```
 
 Paste your weather-api key in the .env as:
