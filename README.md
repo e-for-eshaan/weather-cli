@@ -1,20 +1,18 @@
 # CLI tool to check weather using Golang
 
 ```
-mkdir sun && cd sun
-git clone https://github.com/e-for-eshaan/weather-cli.git .
+git clone https://github.com/e-for-eshaan/weather-cli.git sun && cd sun
 go mod tidy
-go build
-touch .env
-code .env
+touch .env && code .env
 ```
 
-Paste your weather-api key
+Paste your weather-api key in the .env as:
+`WEATHER_API_KEY=987S878sds8d7s8d780`
 
-Save and close the editor that opened `.env`
+Save and close `.env`
 
 In the `sun` folder's terminal, run:
 
 ```
-go build && sudo mv /usr/local/bin
+go build && sudo mv sun /usr/local/bin
 ```
