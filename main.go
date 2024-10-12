@@ -54,7 +54,6 @@ func main() {
 		} else {
 			region = temp
 		}
-
 	}
 
 	if len(os.Args) >= 3 {
