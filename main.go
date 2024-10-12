@@ -49,10 +49,12 @@ func main() {
 		temp := os.Args[1]
 		if temp == "ggn" {
 			region = "Gurgaon"
-		}
-		if temp == "del" || temp == "rhni" {
+		} else if temp == "del" || temp == "rhni" {
 			region = "Rohini"
+		} else {
+			region = temp
 		}
+
 	}
 
 	if len(os.Args) >= 3 {
